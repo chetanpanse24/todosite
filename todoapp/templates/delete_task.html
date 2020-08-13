@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+<form method="post">
+	{% csrf_token %}
+    <h5>Have you completed  "{{ task.id }}"?</h5>
+    
+    <input class="btn-danger" type="submit" value="Delete">
+</form>	
+</div>
+{% endblock %}

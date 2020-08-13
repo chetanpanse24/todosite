@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<h2>YOUR TASKLIST</h2>
+<a href="{% url 'todoapp:create' %}">Add New Task</a>
+{% for task in tasklist %}
+
+<h5>{{ task.title }}</h5>
+<h5>{{ task.content }}</h5>
+<a href="{% url 'todoapp:delete' task.id %}">delete</a>
+
+<a href="{% url 'todoapp:update' task.id %}">update</a>
+
+
+{% endfor %}
+
+{% endblock %}
