@@ -9,10 +9,11 @@
 
 
 ## Apply the database migrations
- ### python manage.py migrate
+ ##### python manage.py migrate
  
 ## Run the code
 
 ##### In todoapp folder project
 ##### manage.py  
-##### Write on command line python manage.py runserver
+##### Write on command line 
+#####   python manage.py runserver
