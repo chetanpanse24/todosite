@@ -1,0 +1,4 @@
+.env.txt
+addtodo/__pycache__
+todoapp/__pycache__
+todoapp/migrations/__pycache__
